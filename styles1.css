@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(161, 155, 155);
+}
+.hello
+{
+    background-color: darkorange;
+    padding: 50px;
+    width: 18.2rem;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    border:solid 2px black;
+    border-radius: 9px;
+    margin-bottom: 0px;
+}
+
+input
+{
+   padding: 10px;
+   width: 15rem;
+   font-size: 16px;
+   border: solid 1px black;
+   border-radius: 5px;
+}
+input[type="submit"]:hover
+{
+    color: white;
+    background-color: rgb(56, 52, 52);
+    cursor: pointer;
+    box-shadow: rgb(37, 35, 35);
+}
+.gana
+{
+    background-color: green;
+    margin: auto;
+    padding: 100px;
+}
+label
+{
+    font-size: 20px;
+    
+}
+table,td,th
+{
+    border: solid 2px black;
+    border-style: dotted;
+    border-collapse: collapse;
+    padding: 5px;
+}
