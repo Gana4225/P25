@@ -4,6 +4,7 @@ $user="gana";
 $pass="gana";
 $db="std";
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
     $rno=$_POST["rno"];
@@ -65,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
               echo "<tr><td>".$row["rollno"]."</td><td>".$row["name"]."</td><td>".$row["phno"]."</td><td>".$row["res"]."</td></tr><br>";
 
             }
-            echo "</table></div>";
+            echo "</table> </div>";
 
         }
       
